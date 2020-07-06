@@ -1,0 +1,46 @@
+.my-modal {
+    background:inherit;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 0 0 3000px rgba(255,255,255,0.3);
+    text-align: center;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    z-index: 6;
+
+   }
+ .modal-body{
+     position: relative;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+ }  
+   .modal-close {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+   }
+   .modal-toggle-button {
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+   }
+   .modal-toggle-button:focus {
+    outline: none;
+   }

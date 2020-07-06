@@ -1,0 +1,46 @@
+.filter-inner{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.filterType{
+    margin:auto 20px;
+    cursor: pointer;
+}
+.filterType:hover{
+    transform: scale(1.2);
+    color: lightseagreen;
+}
+.sort-by{
+    font-size: 15px; 
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1024px) {
+    .filter-inner{
+        width: 70%;
+    }
+  }
+@media only screen and (max-width: 800px) {
+    .filter-inner{
+        width: 80%;
+    }
+    .filterType{
+        margin:auto 10px;
+        font-size: 13px;
+
+    }
+    .sort-by{
+        font-size: 12px; 
+        font-weight: bold;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    .filter-inner{
+        width: 94%;
+    }
+    .filterType{
+        margin:auto 5px;
+        font-size: 10px;
+    }
+  }  

@@ -1,0 +1,112 @@
+.feedcard-container{
+    background: white;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.12), 0 1px 5px 0 rgba(0,0,0,.2);
+    width:50%;
+    margin:10px;
+}
+.feed-imgContainer{
+    width: 100%;
+    height:600px;
+    background: lightgray;
+}
+.feed-imgContainer img{
+    width: 100%;
+    height: 100%;
+    background-image: url("/assets/images/oval.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.feed-author{
+    height: 50px;
+    padding:5px;
+    text-align: left;
+}
+.name-img{
+  height: 40px;
+  width: 40px; 
+  display:inline-block;
+  font-size:1em;
+  line-height:2.5em;
+  text-align:center;
+  border-radius:50%;
+  background:#a253a2;
+  vertical-align:middle;
+  margin-right:.5em;
+  color:white;
+}
+.name-date{
+    display: inline-block;
+    font-size: 13px;
+    color: #5d5858;
+    vertical-align: middle;
+}
+.date{
+    font-size: 10px;
+    color: grey;
+}
+.feed-score{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding:10px;
+}
+.scoreType{
+ flex:1 1 0;
+ color: lightslategray;
+}
+.scoreType > span{
+    font-size: 13px;
+}
+.scoreType :hover{
+    color: lightseagreen;
+    transform: scale(1.2);
+    cursor: pointer;
+
+}
+.t-left{
+    text-align: left;
+}
+.t-right{
+    text-align: right;
+}
+.t-center{
+    text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+    .feedcard-container{
+        width:65%;
+    }
+    .feed-imgContainer{
+        width: 100%;
+        height:500px;
+    }
+  }
+@media only screen and (max-width: 800px) {
+    .feedcard-container{
+        width:75%;
+    }
+    .feed-imgContainer{
+        width: 100%;
+        height:400px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .feedcard-container{
+        width:85%;
+    }
+    .feed-imgContainer{
+        width: 100%;
+        height:280px;
+    }
+  }
+  @media only screen and (max-width: 350px) {
+    .feedcard-container{
+        width:90%;
+    }
+    .feed-imgContainer{
+        width: 100%;
+        height:250px;
+    }
+  }
